@@ -1,0 +1,242 @@
+
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: white;
+}
+.paragraph2{
+    text-align:center;
+    font-size: 100px;
+    font-family: nos;
+    color: white;
+}
+.menu-bar
+{
+    position:absolute;
+    top: -35px;
+text-align:center;
+width: 100%;
+margin:10px 0;
+}
+.menu-bar ul li
+{
+    background-color: rgb(0, 255, 89);
+   display: inline-flex;
+   color:floralwhite;
+   padding:0 10px;
+}
+.menu-bar ul li
+{
+    background-color: rgb(7, 7, 10);
+    font-family: AUTO;
+    font-size:x large;
+    width: 101px;
+    margin: 11px;
+    padding:0 10px;
+ 
+}
+
+.menu-bar ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:3px;
+}
+header {
+    position: fixed;
+    top: 139px;
+    left: 60px;
+    padding: 1rem;
+  }
+  h1{
+    color: rgb(249, 248, 248);
+    text-align: center;
+    font-size:xx-large;
+    margin-top:197px;
+    padding: 0%;
+    color: #f8f5f5;
+  }
+  #logo {
+    height: 154px;
+    width: 130px;
+  }
+ 
+    
+    #logo {
+      height: 76px;
+      width: 186px;
+    }
+  
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+.paragraph5{
+    font-size: 24px;
+    font-family:Courier;
+    text-align: justify;
+    text-align: center;
+    color: white;
+}
+/* .lets-go-btn{
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px;  */
+    
+.lets-go-btn{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    color: #e4f403;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: -14px;
+    letter-spacing: 4px;
+    margin-left: 55px;
+  
+  }
+  
+  .lets-go-btn:hover {
+    background: #e4f403;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e4f403,
+                0 0 25px #e4f403,
+                0 0 50px #e4f403,
+                0 0 100px #e4f403;
+  }
+  
+  .lets-go-btn span {
+    position: absolute;
+    display: block;
+  }
+  
+  .lets-go-btn span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #e4f403);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .lets-go-btn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #e4f403);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .lets-go-btn span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #e4f403);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .lets-go-btn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #e4f403);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+/* .lets-go-btn:hover{
+    background: rgb(54, 1, 1);
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    
+}
+
+.icons a { margin-right:75px; }
+
+.icons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:black;
+    margin-top:28%;
+} */
+.p1{
+    color: floralwhite;
+    font-size: larger;
+    padding-bottom: 10px;
+    
+}
+
+
+
+  
+  
+  
